@@ -54,6 +54,7 @@ exports.createStore = async (req, res) => {
 };
 
 exports.getStores = async (req, res) => {
+  console.log('getting stores');
   // in Store.js, adding hooks to .find && .findOne using an
   // autopopulate function to add 'reviews' to Store
   // pagination: updated routes to have /page/:page as well
